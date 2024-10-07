@@ -1,0 +1,181 @@
+*{
+    
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/236x/b8/0b/22/b80b22597fed3abc177b61a481b2ef1b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: x-large;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffa5c5;
+    color: #000000;
+    padding: 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: #ffffff solid 3px;
+}
+
+header h1{
+    background-position: center;
+    font-family: "Archivo Black", sans-serif;
+    margin: 0%;
+    color: #ffffff;
+}
+
+
+p{
+    color: aliceblue;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{ 
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+main{
+    letter-spacing: 1px;
+    padding: 100px 50px 50px;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+h2{
+
+    color: #ffffff;
+}
+
+table{
+    background-color: #ffa5c5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+article{
+    color: #ffffff;
+}
+
+footer{
+    text-align: center;
+    border: #ffffff solid 2px;
+    background-color: #ffa5c5;
+}
+
+figure{
+    color: #ffffff;
+}
+
+.intro{
+    margin-top: 50px;
+    background-color:#ffa5c5;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+img{
+    width: 200px;
+    height:100px;
+    align-items: center;
+
+}
+
+#galeria{
+    display: flex;
+    flex-direction: column;
+}
+#galeria .galeria2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+p{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffa5c5 ;
+}
+
+#Adalemos{
+    font-size: small;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction:column ;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+label{
+    font-family: "Oswald", sans-serif;
+}
+
+form label{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #ffa5c5;
+}
+
+
+
+form input, form textarea{
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #ffa5c5;;
+    border-radius: 15px;
+
+}
+
+form button{
+    transition: 0.3s;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffa5c5;;
+    color: #000000;
+    border-radius: 15px;
+    cursor: alias;
+    border: #ffffff;
+}
+
+button:hover{
+    transform: scale(1.10);
+}
